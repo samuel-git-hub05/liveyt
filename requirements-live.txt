@@ -1,0 +1,9 @@
+# Live YouTube/microphone/VB-Cable mode. Install a CUDA-enabled PyTorch build first
+# (see README.md), then install this file so pip keeps that torch installation.
+-r requirements.txt
+torch>=2.2
+yt-dlp>=2024.4.9
+silero-vad>=5.1.2
+sounddevice>=0.4.6
+PyAudio>=0.2.14
+edge-tts>=6.1.12
