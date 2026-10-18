@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.python-version
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Model/download/cache data
+.cache/
+.huggingface/
+models/
+*.pt
+*.bin
+*.safetensors
+
+# Generated audio/video and temporary files
+output_hindi.mp4
+output_english.mp4
+*.wav
+*.mp3
+*.flac
+*.aac
+*.m4a
+*.part
+*.tmp
+
+# Test/build tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+*.egg-info/
